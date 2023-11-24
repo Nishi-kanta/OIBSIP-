@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishikanta PortFolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--font awesome cdn font icon css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-n"></i>
+                    <div class="logo-text">Nishikanta sahoo</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href=#> Home</a></li>
+                        <li><a href="#services"> Services</a></li>
+                        <li><a href="#projects"> Projects</a></li>
+                        <li><a href=#> Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="./image/Passport size.jpg" alt="profile photo">
+                </div>
+                <div class="hero-text">
+                    <h5>Hii I am <span class="input">DOTNET DEVLOPER</span></h5>
+                    <h1>Nishikanta sahoo</h1>
+                    <p>I’m interested in :- html5,css,javascript,c#,sqlserver,Asp.net,ADO.Net,Asp.Net MVC,Web API <br>
+                        I’m currently learning :-B-tech Final Year under Branch Computer science <br>
+                        I’m looking to collaborate on :-to built some projects as much as possible using my skill</p>
+
+                    <div class="btn-group">
+                        <a href="image/NishiUp__cYes.pdf" class="btn active">Download CV</a>
+                    </div>
+                    <div class="social">
+                        <a class="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a class="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Services section start-->
+    <div id="services">
+        <h1 class="sub-title" style="color: aliceblue; font-size: xx-large;">My Services</h1>
+        <div class="container1">
+            <div class="services_list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app. When you visit a website, the design elements you see were created by a front-end developer.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Backend Development</h2>
+                    <p>Backend developer responsibilities include creating, maintaining, testing, and debugging the entire back end of an application or system. This includes the core application logic, databases, data and application integration, API, and other processes taking place behind the scenes.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services section end-->
+
+
+
+    <!--Projects section start-->
+    <div id="projects">
+        <div class="sub-title"style="color: aliceblue; font-size: xx-large;">My Projects</div>
+        <div class="container1">
+            <div class="work_list">
+                <div class="work">
+                    <img src="image/Food Ordering System.png" alt="project1"/>
+                    <div class="layer">
+                        <h3>Food_Ordering System</h3>
+                        <p>This project is done by using Asp.Net,C#,Ado.Net and SqlServer. </p>
+                        <a href="https://github.com/Nishi-kanta/Food_Ordering_System"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/insta_clone.jpeg" alt="project2"/>
+                    <div class="layer">
+                        <h3>Instagram-Clone</h3>
+                        <p>This project is done by using Html,Css</p>
+                        <a href="https://github.com/Nishi-kanta/instagram-clone"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/E-Fitness.png" alt="project3"/>
+                    <div class="layer">
+                        <h3>E-Fitness</h3>
+                        <p>This project is done by using Asp.Net WebForm,Ado.Net and SqlServer. </p>
+                        <a href="https://github.com/Nishi-kanta/E-Fitness"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Nishi-kanta" class="btn">See more</a>
+        <div class="copyright" >
+            <p class="footer" style="text-align: center;">
+                <i class="fas fa-star" style="margin-right: 5px;"></i>Copyright &copy; By Nishikanta Sahoo<i style="margin-left: 5px;" class="fas fa-star"></i>
+            </p>
+        </div>
+    </div>
+        </div>
+  
+  
+</div>
+    <!-- typed js for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.js"></script>
+    <script>
+        /* creating button click show hide navbar*/
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function () {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed = new Typed(".input", {
+            strings: [".net devloper", "frontend devloper", "web devloper",
+                ".net devloper", "frontend devloper", "web devloper", ".net devloper",
+                "frontend devloper", "web devloper"],
+            typedSpeed: 90,
+            backSpeed: 40,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
