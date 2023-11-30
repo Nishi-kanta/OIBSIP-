@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #68d7f8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #007BFF;
+    margin: 0;
+    padding: 10px;
+    font-size: 28px;
+}
+
+input {
+    padding: 10px;
+  font-size: 16px;
+  margin: 21px;
+  border: 2px solid #ccc;
+  border-radius: 14px;
+  width: 78%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Add some color to the buttons */
+#celsiusToFarButton {
+    background-color: #ff8c00; /* Dark Orange */
+}
+
+#farToCelsiusButton {
+    background-color: #ff5733; /* Red-Orange */
+}
